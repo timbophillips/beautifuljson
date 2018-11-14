@@ -1,0 +1,17 @@
+{
+  "name": "beautifuljson",
+  "version": "1.0.0",
+  "description": "uses chalk and json-colorizer together to print easy to read JSON for the command line",
+  "main": "lib/beautifulJSON.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.7"
+  }
+}
