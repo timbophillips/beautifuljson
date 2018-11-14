@@ -1,4 +1,4 @@
-import { beautifulJSON } from "./lib/beautifulJSON";
+import { beautifulJSON } from "../lib";
 
 console.log(beautifulJSON({
     name: "Tim",
