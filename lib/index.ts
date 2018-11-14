@@ -1,5 +1,5 @@
 import * as chalk from "chalk";
-import {ColorSupport, Chalk,ChalkOptions} from 'chalk';
+import { ColorSupport, Chalk, ChalkOptions } from 'chalk';
 import { getTokens } from './lexer';
 import { colorize } from './colorizer';
 
@@ -43,3 +43,7 @@ export const beautifulJSON = (jsonStringOrObject: object | string): string => {
     return jsonStringOrObject as string;
   }
 };
+
+export const consoleLogBeautifulJSON = (jsonStringOrObject: object | string): void => {
+  console.log(beautifulJSON(jsonStringOrObject))
+}
