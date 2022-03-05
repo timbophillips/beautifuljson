@@ -10,9 +10,7 @@
     "test": "tsc && node dist/test.js",
     "prepublish": "tsc"
   },
-  "bin": {
-    "colourjson": "dist/colorjson.js"
-  },
+  "bin": "./dist/colorjson.js",
   "author": "Tim Phillips",
   "license": "ISC",
   "dependencies": {
