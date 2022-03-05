@@ -4,7 +4,7 @@
   "description": "Typescript library using chalk and json-colorizer together to print easy to read JSON for the command line",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -r dist && tsc",
+    "build": "rm -rf dist && tsc",
     "test-ts": "ts-node lib/test.ts",
     "test-js": "tsc && node dist/test.js"
   },
