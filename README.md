@@ -8,7 +8,7 @@ pipe stdin to the command line script
 echo '{"name":"Katie","status":"Average"}' | bj
 ```
 output
-```
+```json
 {
   "name": "Katie",
   "status": "Average"
@@ -19,7 +19,7 @@ submit arguments to the command line script
 bj '{"name":"Katie","status":"Average"}' '{"name":"Tim","status":"Legend"}'
 ```
 output
-```
+```json
 {
   "name": "Katie",
   "status": "Average"
@@ -30,5 +30,11 @@ output
 }
 ```
 use in nodeJS
+```ts
+import {beautifulJSON} from 'beautifuljson'
 
-
+console.log(beautifulJSON({
+    name: "Ben",
+    status: "Not bad"
+}))
+```
