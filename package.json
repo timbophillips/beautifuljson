@@ -1,5 +1,5 @@
 {
-  "name": "beautifuljson",
+  "name": "colorjson",
   "version": "1.0.0",
   "description": "Typescript library using chalk and json-colorizer together to print easy to read JSON for the command line",
   "main": "dist/index.js",
