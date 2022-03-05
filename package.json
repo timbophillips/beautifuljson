@@ -7,7 +7,7 @@
     "build": "rm -r dist && tsc",
     "test-ts": "ts-node lib/test.ts",
     "test-js": "tsc && node dist/test.js",
-    "prepare": "rm -r dist && tsc"
+    "install": "rm -r dist && tsc"
   },
   "bin": {
     "bj": "dist/bj.js"
