@@ -9,7 +9,7 @@ npm install -g @timbophillips/colorjson
 ## usage
 ### pipe stdin to the command line script
 ```bash
-echo '{"name":"Katie","status":"Average"}' | bj
+echo '{"name":"Katie","status":"Average"}' | colourjson -s
 ```
 output
 ```json
@@ -20,7 +20,7 @@ output
 ```
 ### submit arguments to the command line script
 ```bash
-bj '{"name":"Katie","status":"Average"}' '{"name":"Tim","status":"Legend"}'
+colorjson '{"name":"Katie","status":"Average"}' '{"name":"Tim","status":"Legend"}'
 ```
 output
 ```json
