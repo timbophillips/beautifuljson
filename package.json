@@ -11,7 +11,7 @@
     "prepublish": "tsc"
   },
   "bin": {
-    "colourjson": "dist/bj.js"
+    "colourjson": "dist/colorjson.js"
   },
   "author": "Tim Phillips",
   "license": "ISC",
