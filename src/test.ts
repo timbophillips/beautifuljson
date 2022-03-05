@@ -1,6 +1,6 @@
-import { beautifulJSON } from "./";
+import { colorjson } from "./";
 
-console.log(beautifulJSON({
+console.log(colorjson({
     name: "Ben",
     status: "Not bad"
 }))

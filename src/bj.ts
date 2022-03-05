@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { beautifulJSON } from "./index";
+import { colorjson } from "./index";
 
 const commandLineArgs = process.argv.slice(2);
 
@@ -27,12 +27,12 @@ const stdinPipeInput = (): Promise<string> => {
 if (commandLineArgs[0] === "-s" || commandLineArgs[0] === "--stdin") {
   // pipe the stdin to beautifulJSON
   stdinPipeInput().then(
-    (x) => console.log(beautifulJSON(x)),
+    (x) => console.log(colorjson(x)),
     (e) => console.error(e)
   );
 } else {
   // output any command line arguments as JSON
   commandLineArgs.map((json) => {
-    console.log(beautifulJSON(json));
+    console.log(colorjson(json));
   });
 }

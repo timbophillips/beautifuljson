@@ -19,7 +19,7 @@ const jsonColorizer = (jsonString: string, options: any) => {
   return colorize(getTokens(jsonString), options);
 };
 
-export const beautifulJSON = (jsonStringOrObject: object | string): string => {
+export const colorjson = (jsonStringOrObject: object | string): string => {
 
   let json: object = {};
 
@@ -43,7 +43,3 @@ export const beautifulJSON = (jsonStringOrObject: object | string): string => {
     return jsonStringOrObject as string;
   }
 };
-
-export const consoleLogBeautifulJSON = (jsonStringOrObject: object | string): void => {
-  console.log(beautifulJSON(jsonStringOrObject))
-}

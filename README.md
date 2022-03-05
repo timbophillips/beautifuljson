@@ -35,9 +35,9 @@ output
 ```
 ### use in node
 ```ts
-import {beautifulJSON} from 'beautifuljson'
+import {colorjson} from 'colorjson'
 
-console.log(beautifulJSON({
+console.log(colorjson({
     name: "Ben",
     status: "Not bad"
 }))
