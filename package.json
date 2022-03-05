@@ -5,7 +5,11 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "test/index.test.js"
+    "test-ts": "ts-node lib/test.ts",
+    "test-js": "tsc && node dist/test.js"
+  },
+  "bin": {
+    "bj": "dist/bj.js"
   },
   "author": "Tim Phillips",
   "license": "ISC",

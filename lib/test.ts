@@ -1,4 +1,4 @@
-import { beautifulJSON, consoleLogBeautifulJSON } from "../lib";
+import { beautifulJSON, consoleLogBeautifulJSON } from "./";
 
 consoleLogBeautifulJSON({
     name: "Tim",
