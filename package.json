@@ -1,6 +1,6 @@
 {
   "name": "@timbophillips/colorjson",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Typescript library using chalk and json-colorizer together to print easy to read JSON for the command line",
   "main": "dist/index.js",
   "scripts": {
