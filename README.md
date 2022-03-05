@@ -35,7 +35,7 @@ output
 ```
 ### use in node
 ```ts
-import {colorjson} from 'colorjson'
+import {colorjson} from '@timbophillips/colorjson'
 
 console.log(colorjson({
     name: "Ben",
