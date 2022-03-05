@@ -1,9 +1,9 @@
-# beautifulJSON
+# beautifuljson
 
 Typescript node library and command line app using chalk and json-colorizer together to print easy to read JSON for the command line
 
 ## usage
-pipe stdin to the command line script
+### pipe stdin to the command line script
 ```bash
 echo '{"name":"Katie","status":"Average"}' | bj
 ```
@@ -14,7 +14,7 @@ output
   "status": "Average"
 }
 ```
-submit arguments to the command line script
+### submit arguments to the command line script
 ```bash
 bj '{"name":"Katie","status":"Average"}' '{"name":"Tim","status":"Legend"}'
 ```
@@ -29,7 +29,7 @@ output
   "status": "Legend"
 }
 ```
-use in nodeJS
+### use in node
 ```ts
 import {beautifulJSON} from 'beautifuljson'
 
