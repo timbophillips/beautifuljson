@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rm -r dist && tsc",
     "test-ts": "ts-node lib/test.ts",
-    "test-js": "tsc && node dist/test.js"
+    "test-js": "tsc && node dist/test.js",
+    "prepare": "npm run build"
   },
   "bin": {
     "bj": "dist/bj.js"

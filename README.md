@@ -2,6 +2,10 @@
 
 Typescript node library and command line app using chalk and json-colorizer together to print easy to read JSON for the command line
 
+## install
+
+npm i -g https://github.com/timbophillips/beautifuljson.git
+
 ## usage
 ### pipe stdin to the command line script
 ```bash
