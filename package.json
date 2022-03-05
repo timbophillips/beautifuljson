@@ -1,12 +1,13 @@
 {
   "name": "@timbophillips/colorjson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript library using chalk and json-colorizer together to print easy to read JSON for the command line",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "build": "rm -rf dist && npx tsc",
     "test-ts": "ts-node lib/test.ts",
-    "test-js": "tsc && node dist/test.js"
+    "test-js": "npx tsc && node dist/test.js",
+    "install": "npm install && npx tsc"
   },
   "bin": {
     "bj": "dist/bj.js"
